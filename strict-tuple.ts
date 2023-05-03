@@ -3,3 +3,5 @@ function tuple<T extends unknown[]>(...args: T) {
 }
 
 const tp = tuple(1, "a", true); // [number, string, boolean]
+
+export {};

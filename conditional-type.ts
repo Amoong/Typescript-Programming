@@ -21,3 +21,5 @@ type Without<T, U> = T extends U ? never : T;
 
 type w1 = Without<number | string | boolean, number>; // string | boolean
 type w2 = Without<number | string | boolean, number | string>; // boolean
+
+export {};
